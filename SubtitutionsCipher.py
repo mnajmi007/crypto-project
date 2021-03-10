@@ -24,7 +24,7 @@ def get_decrypt_key(key):
         dkey[key[k]] = k
     return dkey
 
-message = "MUHAMMAD NAJMI"
+message = "EVERYBODY LOVES ICE CREAM"
 key = generate_key()
 cipher = encrypt(key, message)
 dkey = get_decrypt_key(key)
